@@ -4,7 +4,7 @@ import argparse
 import boto3
 import os
 
-bucket = 'bvbucket'
+bucket = 'vkbucket'
 
 def upload(path, album):
     if path is None or album is None:
